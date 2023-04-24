@@ -69,3 +69,92 @@
 .main .sidebar-right {
     width: 20%;
 }
+
+.body {
+    display: flex;
+    height: 1000px;
+    border-top: 2px solid #ccb0b0;
+}
+
+.leftblock {
+    width: 22.5%;
+    background-color: rgb(194, 240, 224);
+    border-right: 2px solid #fff;
+}
+
+.ul2bodyleft {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.libodyleft a {
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(194, 240, 224);
+    text-decoration: none;
+    padding: 6% 2% 6% 2%;
+    margin: 0%;
+    border-bottom: 2px solid #eea3ba;
+}
+
+li.libodyleft a:hover {
+    background-color: #f1c7d4;
+    color: #e7e4e5;
+}
+
+li.libodyleft a:active a{
+    color: aqua !important;
+    background-color:rgb(194, 240, 224) !important;
+    cursor: pointer;
+    border-top: 2px solid #fff;
+
+}
+
+.leftblockbottom {
+    background-color:  rgb(194, 240, 224);
+    height: 250px;
+    padding: 8% 2% 8% 2%;
+    margin: 0%;
+    border-bottom: 2px solid rgb(194, 240, 224);
+}
+
+.centerblock {
+    width: 80%;
+    background-color: #fff;
+    padding: 1%;
+}
+
+.centerleft-right {
+    display: flex;
+}
+
+.centerleft {
+    width: 65%;
+    background-color: rgb(194, 240, 224);
+    padding: 1%;
+    border-right: 2px solid #fff;
+
+}
+
+.centerright {
+    width: 35%;
+    background-color: rgb(194, 240, 224);
+    color: #fff;
+    padding: 1%;
+}
+
+.centerbottom {
+    display: block;
+    background-color: #fff;
+    height: 650px;
+    padding: 1%;
+    box-shadow: 2px 2px 0 0 rgb(194, 240, 224);
+}
+
+.rightblock {
+    width: 20%;
+    background-color: rgb(194, 240, 224);
+    padding: 1%;
+    border-left: 2px solid #fff;
+}
