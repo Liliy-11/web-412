@@ -1,0 +1,42 @@
+.buttons {
+    border: #FFFFFF;
+    border-radius: 0;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 0 0 #303030;
+    background-color: #4ba5f8;
+    margin: 10px;
+    width: 20%;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.spisok {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.string {
+    display: flex;
+}
+
+.num{
+    list-style: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #4ba5f8;
+    width: 13px;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 0 0 #c4def7;
+ }
+
+.el {
+    list-style: none;
+    background-color: #c4def7;
+    width: 350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+  
